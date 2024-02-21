@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic head elements -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <!-- Page content container -->
+    <div class="container">
+        <!-- Student ID display -->
+        <div>
+            <p id="myStudentId">200556069</p>
+        </div>
+        
+        <!-- Number input for custom color change -->
+        <div>
+            <label for="customNumber">Enter number from 1 to 100:</label>
+            <input id="customNumber" type="number" placeholder="Enter a number" />
+        </div>
+        
+        <!-- Color change buttons -->
+        <div>
+            <button class="custColor">Change custom color</button>
+            <button class="randColor">Change random color</button>
+        </div>
+        
+        <!-- Image selection dropdown -->
+        <div>
+            <label for="imageSelect">Select Image:</label>
+            <select id="imageSelect">
+                <option value="">Please choose…</option>
+            </select>
+        </div>
+        
+        <!-- Image display -->
+        <div>
+            <img id="images" src="" alt="Selected image will appear here.">
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
